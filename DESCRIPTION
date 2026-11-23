@@ -1,0 +1,15 @@
+Package: Semalg
+Title: Semantic algorithm
+Version: 0.0.0.9000
+Authors@R: 
+    person("Sofia", "Spolander", , "sofia.spolander@ki.se", role = c("aut", "cre"))
+Description: A simple word-based sentiment analysis algorithm that counts
+    positive and negative words in a document and calculates a
+    positive-to-negative word ratio.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
