@@ -15,8 +15,10 @@ compare_words(document_words, word_list)
 The number of matching word occurences.
 }
 \description{
-Counts how many words from a positive or negative word list
-appear in the text of the document.
+Compares words from a document against a supplied vector
+of positive or negative sentiment words and returns the
+matching words. Supports exact matching as well as prefix
+and suffix matching using an asterisk (*) as a wildcard.
 }
 \examples{
 document_words <- c("nauseous", "nauseated", "happy")

@@ -1,7 +1,9 @@
 #' Compare words
 #'
-#' Counts how many words from a positive or negative word list
-#' appear in the text of the document.
+#' Compares words from a document against a supplied vector
+#' of positive or negative sentiment words and returns the
+#' matching words. Supports exact matching as well as prefix
+#' and suffix matching using an asterisk (*) as a wildcard.
 #'
 #' @param document_words A character vector containing words from a document.
 #' @param word_list A character vector containing positive or negative words.
